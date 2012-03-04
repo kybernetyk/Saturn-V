@@ -13,6 +13,13 @@
 		354A535815037C7B0025FDE4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 354A535615037C7B0025FDE4 /* Credits.rtf */; };
 		354A535B15037C7B0025FDE4 /* FXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 354A535A15037C7B0025FDE4 /* FXAppDelegate.m */; };
 		354A535E15037C7B0025FDE4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 354A535C15037C7B0025FDE4 /* MainMenu.xib */; };
+		354A536815037CC40025FDE4 /* FXSearchWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 354A536615037CC40025FDE4 /* FXSearchWindowController.m */; };
+		354A536915037CC40025FDE4 /* FXSearchWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 354A536715037CC40025FDE4 /* FXSearchWindowController.xib */; };
+		354A536E1503818D0025FDE4 /* FXSearchBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 354A536C1503818D0025FDE4 /* FXSearchBarViewController.m */; };
+		354A536F1503818D0025FDE4 /* FXSearchBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 354A536D1503818D0025FDE4 /* FXSearchBarViewController.xib */; };
+		354A53721503888C0025FDE4 /* FXSearchWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 354A53711503888C0025FDE4 /* FXSearchWindow.m */; };
+		354A537415038D850025FDE4 /* woodpattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 354A537315038D850025FDE4 /* woodpattern.png */; };
+		354A53781503944E0025FDE4 /* FXSearchWindowContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 354A53771503944E0025FDE4 /* FXSearchWindowContentView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +28,25 @@
 		354A534A15037C7B0025FDE4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		354A534B15037C7B0025FDE4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		354A534C15037C7B0025FDE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		354A534F15037C7B0025FDE4 /* Saturn V-Info.plist */ = {isa = PBXFileReference; path = "Saturn V-Info.plist"; sourceTree = "<group>"; };
+		354A534F15037C7B0025FDE4 /* Saturn V-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Saturn V-Info.plist"; sourceTree = "<group>"; };
 		354A535115037C7B0025FDE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		354A535315037C7B0025FDE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		354A535515037C7B0025FDE4 /* Saturn V-Prefix.pch */ = {isa = PBXFileReference; path = "Saturn V-Prefix.pch"; sourceTree = "<group>"; };
+		354A535515037C7B0025FDE4 /* Saturn V-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Saturn V-Prefix.pch"; sourceTree = "<group>"; };
 		354A535715037C7B0025FDE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		354A535915037C7B0025FDE4 /* FXAppDelegate.h */ = {isa = PBXFileReference; path = FXAppDelegate.h; sourceTree = "<group>"; };
+		354A535915037C7B0025FDE4 /* FXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXAppDelegate.h; sourceTree = "<group>"; };
 		354A535A15037C7B0025FDE4 /* FXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FXAppDelegate.m; sourceTree = "<group>"; };
 		354A535D15037C7B0025FDE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		354A536515037CC40025FDE4 /* FXSearchWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXSearchWindowController.h; sourceTree = "<group>"; };
+		354A536615037CC40025FDE4 /* FXSearchWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXSearchWindowController.m; sourceTree = "<group>"; };
+		354A536715037CC40025FDE4 /* FXSearchWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FXSearchWindowController.xib; sourceTree = "<group>"; };
+		354A536B1503818D0025FDE4 /* FXSearchBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXSearchBarViewController.h; sourceTree = "<group>"; };
+		354A536C1503818D0025FDE4 /* FXSearchBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXSearchBarViewController.m; sourceTree = "<group>"; };
+		354A536D1503818D0025FDE4 /* FXSearchBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FXSearchBarViewController.xib; sourceTree = "<group>"; };
+		354A53701503888C0025FDE4 /* FXSearchWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXSearchWindow.h; sourceTree = "<group>"; };
+		354A53711503888C0025FDE4 /* FXSearchWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXSearchWindow.m; sourceTree = "<group>"; };
+		354A537315038D850025FDE4 /* woodpattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = woodpattern.png; sourceTree = "<group>"; };
+		354A53761503944E0025FDE4 /* FXSearchWindowContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXSearchWindowContentView.h; sourceTree = "<group>"; };
+		354A53771503944E0025FDE4 /* FXSearchWindowContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXSearchWindowContentView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +100,7 @@
 		354A534D15037C7B0025FDE4 /* Saturn V */ = {
 			isa = PBXGroup;
 			children = (
+				354A536415037C990025FDE4 /* Search Window */,
 				354A535915037C7B0025FDE4 /* FXAppDelegate.h */,
 				354A535A15037C7B0025FDE4 /* FXAppDelegate.m */,
 				354A535C15037C7B0025FDE4 /* MainMenu.xib */,
@@ -93,6 +112,7 @@
 		354A534E15037C7B0025FDE4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				354A537315038D850025FDE4 /* woodpattern.png */,
 				354A534F15037C7B0025FDE4 /* Saturn V-Info.plist */,
 				354A535015037C7B0025FDE4 /* InfoPlist.strings */,
 				354A535315037C7B0025FDE4 /* main.m */,
@@ -100,6 +120,31 @@
 				354A535615037C7B0025FDE4 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		354A536415037C990025FDE4 /* Search Window */ = {
+			isa = PBXGroup;
+			children = (
+				354A536A150381370025FDE4 /* Search Bar View */,
+				354A536515037CC40025FDE4 /* FXSearchWindowController.h */,
+				354A536615037CC40025FDE4 /* FXSearchWindowController.m */,
+				354A536715037CC40025FDE4 /* FXSearchWindowController.xib */,
+				354A53701503888C0025FDE4 /* FXSearchWindow.h */,
+				354A53711503888C0025FDE4 /* FXSearchWindow.m */,
+				354A53761503944E0025FDE4 /* FXSearchWindowContentView.h */,
+				354A53771503944E0025FDE4 /* FXSearchWindowContentView.m */,
+			);
+			name = "Search Window";
+			sourceTree = "<group>";
+		};
+		354A536A150381370025FDE4 /* Search Bar View */ = {
+			isa = PBXGroup;
+			children = (
+				354A536B1503818D0025FDE4 /* FXSearchBarViewController.h */,
+				354A536C1503818D0025FDE4 /* FXSearchBarViewController.m */,
+				354A536D1503818D0025FDE4 /* FXSearchBarViewController.xib */,
+			);
+			name = "Search Bar View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +202,9 @@
 				354A535215037C7B0025FDE4 /* InfoPlist.strings in Resources */,
 				354A535815037C7B0025FDE4 /* Credits.rtf in Resources */,
 				354A535E15037C7B0025FDE4 /* MainMenu.xib in Resources */,
+				354A536915037CC40025FDE4 /* FXSearchWindowController.xib in Resources */,
+				354A536F1503818D0025FDE4 /* FXSearchBarViewController.xib in Resources */,
+				354A537415038D850025FDE4 /* woodpattern.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +217,10 @@
 			files = (
 				354A535415037C7B0025FDE4 /* main.m in Sources */,
 				354A535B15037C7B0025FDE4 /* FXAppDelegate.m in Sources */,
+				354A536815037CC40025FDE4 /* FXSearchWindowController.m in Sources */,
+				354A536E1503818D0025FDE4 /* FXSearchBarViewController.m in Sources */,
+				354A53721503888C0025FDE4 /* FXSearchWindow.m in Sources */,
+				354A53781503944E0025FDE4 /* FXSearchWindowContentView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

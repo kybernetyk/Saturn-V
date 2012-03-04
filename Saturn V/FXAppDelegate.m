@@ -7,6 +7,7 @@
 //
 
 #import "FXAppDelegate.h"
+#import "FXSearchWindowController.h"
 
 @implementation FXAppDelegate
 
@@ -15,6 +16,11 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+}
+
+- (IBAction) spawnBar:(id)sender {
+    FXSearchWindowController *wc = [[FXSearchWindowController alloc] initWithWindowNibName:@"FXSearchWindowController"];
+    [wc showWindow: self];
 }
 
 @end
